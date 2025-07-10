@@ -12,18 +12,6 @@ This project is a secure backend system built using **Spring Boot**, integrated 
 - 🐳 Docker Compose setup (PostgreSQL + Keycloak + Spring Boot)
 - 🔄 Token verification and security context mapping
 
----
-
-## 📁 Project Structure
-├── src
-│   ├── main
-│   │   ├── java/.../config       → Security, Keycloak config
-│   │   ├── java/.../controller   → REST endpoints
-│   │   └── resources
-│   │       └── application.yml   → Keycloak & DB settings
-├── Dockerfile                    → Backend container setup
-├── docker-compose.yaml          → Keycloak, DB & backend orchestration
-
 
 ## 📋 Prerequisites
 
